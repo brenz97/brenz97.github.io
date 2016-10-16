@@ -1,5 +1,140 @@
+html{
+
+}
+
 body{
-	font-family: Verdana, Arial;
-	color: #FFE5CC;
-	margin: 0;
+	background-image: url("space.png");
+	background-size: 100%;
+	height: 1600px;
+	margin: 0%;
+	z-index: 2;
+}
+
+@keyframes sidebar {
+	0% {background-color: white;}
+	20% {background-color: #00ebdc;}
+	40% {background-color: #ffc8d7;}
+	60% {background-color: #00ebdc;}
+	80% {background-color: #ffc8d7;}
+	100% {background-color: white;}
+}
+
+@keyframes fontcolor {
+	0% {color: white;}
+	20% {color: #00ebdc;}
+	40% {color: #ffc8d7;}
+	60% {color: #00ebdc;}
+	80% {color: #ffc8d7;}
+	100% {color: white;}
+}
+
+#waterfall{
+	z-index: 2;
+	opacity: 0.85;
+	position: fixed;
+	width: 100%;
+}
+
+#partone {
+	width: 80%;
+	margin-left: 10%;
+	position: fixed;
+	z-index: 3;
+
+	text-align: center;
+	letter-spacing: 5px;
+	text-decoration: line-through;
+	font-size: 75px;
+	font-family: Symbol;
+
+	animation-name: fontcolor;
+	animation-iteration-count: infinite;
+	animation-duration: 10s;
+}
+
+#parttwo{
+	width: 80%;
+	margin-top: 10%;
+	margin-left: 10%;
+	z-index: 2;
+	position: absolute;
+
+	text-align: center;
+	font-weight: bolder;
+	color: red;
+	letter-spacing: 5px;
+	font-size: 20px;
+}
+
+#partthree{
+
+	width: 80%;
+	margin-left: 10%;
+	z-index: 2;
+	position: absolute;
+
+	text-align: center;
+	font-weight: bolder;
+	color: red;
+	letter-spacing: 5px;
+	font-size: 20px;
+}
+
+#leftpane{
+	position: fixed;
+	float: left;
+
+	width: 10%;
+	height: 100%;
+	z-index: 4;
+	left:5px;
+
+	background-color: white;
+	animation-name: sidebar;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	opacity: 0.5;
+
+	text-align: center;
+	vertical-align: middle;
+
+}
+
+#rightpane{
+	position: fixed;
+	float: right;
+
+	width: 10%;
+	height: 100%;
+	z-index: 4;
+	right: 5px;
+
+	background-color: white;
+	opacity: 0.5;
+
+	animation-name: sidebar;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	text-align: center;
+	vertical-align: middle;
+
+}
+
+#partthree img{
+	width: 60%;
+	margin-top: 20%;
+	opacity: 0.9;
+}
+
+a:link{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	font-weight: bold;
+}
+
+a:visited{
+	color: black;
 }
