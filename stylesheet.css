@@ -1,9 +1,9 @@
 body{
 	margin: 0;
-	background-color: #FFFFFF;
+	background-color: #000000;
 }
 
-#indexName{
+#nameIndex{
 	margin-top: 25%;
 	color: white;
 	text-align: center; 
@@ -11,7 +11,7 @@ body{
 }
 
 #indexName a: link{
-	font-style: none;
+	text-decoration: none;
 }
 
 #indexName a: hover{
