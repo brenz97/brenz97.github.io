@@ -3,17 +3,17 @@ body{
 	background-color: #000000;
 }
 
-#nameIndex{
+nameIndex{
 	margin-top: 25%;
 	color: white;
 	text-align: center; 
 	font-style: italic
 }
 
-#indexName a: link{
+a.indexName: link{
 	text-decoration: none;
 }
 
-#indexName a: hover{
+a.indexName: hover{
 	font-weight: bold;	
 }
