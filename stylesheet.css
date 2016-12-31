@@ -10,15 +10,15 @@ body{
 	font-style: italic
 }
 
-.nameIndex a: link{
+.nameIndex a:link{
 	text-decoration: none;
 }
 
-.nameIndex a: hover{
+.nameIndex a:hover{
 	font-weight: bold;	
 }
 
-.nameIndex a: visited{
+.nameIndex a:visited{
 	color: #000000;
 	text-decoration: none;
 }
