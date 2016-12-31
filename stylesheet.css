@@ -3,11 +3,6 @@ body{
 	background-color: #000000;
 }
 
-.nameIndex{
-	margin-top: 22.5%;
-	text-align: center;
-}
-
 title{
 	text-align: center;
 	margin-top: 20%;
@@ -21,17 +16,31 @@ item{
 	color: white;
 }
 
+.nameIndex{
+	margin-top: 22.5%;
+	text-align: center;
+}
+
 a{
 	font-style: italic;
 	color: white;
-} a:link
+}
+
+a:link
 	text-decoration:none;
-} a:hover{
+}
+
+a:hover{
 	text-decoration: underline overline;
-} a:visited{
+}
+
+a:visited{
 	text-decoration: none;
 }
 
+.nameIndex a:link{
+	text-decoration: none;
+}
 .nameIndex a:hover{
 	font-weight: bold;	
 }
