@@ -1,3 +1,5 @@
+@fontface 
+
 body{
 	margin: 0;
 	background-color: #000000;
@@ -23,10 +25,6 @@ body{
 
 .homeItems a:link{
 	text-decoration: none;
-}
-
-.homeItems a:hover{
-	font-weight: bold;	
 }
 
 .homeItems a:visited{
