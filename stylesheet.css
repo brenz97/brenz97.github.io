@@ -8,19 +8,30 @@ body{
 	text-align: center;
 }
 
-.nameIndex a{
-	font-style: italic;
+title{
+	text-align: center;
+	margin-top: 20%;
+  
+	color: white;
+	font-weight: bold;
+}
+
+item{
+	text-align: center;
 	color: white;
 }
 
-.nameIndex a:link{
+a{
+	font-style: italic;
+	color: white;
+} a:link
+	text-decoration:none;
+} a:hover{
+	text-decoration: underline overline;
+} a:visited{
 	text-decoration: none;
 }
 
 .nameIndex a:hover{
 	font-weight: bold;	
-}
-
-.nameIndex a:visited{
-	text-decoration: none;
 }
