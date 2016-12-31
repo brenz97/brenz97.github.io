@@ -25,6 +25,10 @@ body{
 	text-decoration: none;
 }
 
+.homeItems a:hover{
+	text-decoration: line-through;
+}
+
 .homeItems a:visited{
 	text-decoration: none;
 }
