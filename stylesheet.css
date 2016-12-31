@@ -5,9 +5,12 @@ body{
 
 .nameIndex{
 	margin-top: 22.5%;
+	text-align: center;
+}
+
+.nameIndex a{
+	font-style: italic;
 	color: white;
-	text-align: center; 
-	font-style: italic
 }
 
 .nameIndex a:link{
