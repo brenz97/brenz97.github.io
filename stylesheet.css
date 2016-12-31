@@ -3,7 +3,7 @@ body{
 	background-color: #000000;
 }
 
-title{
+.title{
 	text-align: center;
 	margin-top: 20%;
   
@@ -11,7 +11,7 @@ title{
 	font-weight: bold;
 }
 
-item{
+.item{
 	text-align: center;
 	color: white;
 }
