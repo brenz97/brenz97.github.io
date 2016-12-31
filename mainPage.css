@@ -1,0 +1,15 @@
+body{
+	margin: 0;
+	background-color: #000000;
+}
+
+.mainTitle{
+  text-align: center;
+  margin-top: 20%;
+  color: white;
+}
+
+.mainItem{
+  text-align: center;
+  color: white;
+}
