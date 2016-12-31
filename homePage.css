@@ -6,10 +6,29 @@ body{
 .homeTitle{
   text-align: center;
   margin-top: 20%;
+  
   color: white;
+  font-weight: bold;
 }
 
 .homeItems{
   text-align: center;
   color: white;
+}
+
+.homeItems a{
+	font-style: italic;
+	color: white;
+}
+
+.homeItems a:link{
+	text-decoration: none;
+}
+
+.homeItems a:hover{
+	font-weight: bold;	
+}
+
+.homeItems a:visited{
+	text-decoration: none;
 }
