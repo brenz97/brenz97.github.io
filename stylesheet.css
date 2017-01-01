@@ -26,7 +26,7 @@ a{
 	color: white;
 }
 
-a:link
+a:link{
 	text-decoration:none;
 }
 
