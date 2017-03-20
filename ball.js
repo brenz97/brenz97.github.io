@@ -4,8 +4,11 @@ let x = 5, y = 0, a=1, xSpeed = 1, ySpeed = 1, string="";
 
 function draw(x, y){
 	ctx.clearRect(0,0,800,300);
-	ctx.fillStyle = "rgba(255, 130, 0, 1)";
-	ctx.fillRect(x, y, 10, 10);
+	ctx.fillStyle = "#1ea8ce";
+	ctx.beginPath();
+	ctx.arc(x, y, 10, 0, 2*Math.PI);
+	ctx.closePath();
+	ctx.fill();
 }
 
 function check(){
