@@ -51,7 +51,7 @@ a:visited{
 	position: relative;	
 }
 
-#title1{
+#moveTitleText1{
 	padding: 2px;
 	position: absolute;
 	width: 99%;
@@ -64,7 +64,7 @@ a:visited{
 	z-index: 1;
 }
 
-#title2{
+#moveTitleText2{
 	margin-left: 5px;
 	margin-top: 2px;
 
