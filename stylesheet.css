@@ -41,3 +41,36 @@ a:visited{
 .nameIndex a:link{
 	text-decoration: none;
 }
+
+#moveTitleContainer{
+	position: relative;	
+}
+
+#title1{
+	padding: 2px;
+	position: absolute;
+	width: 99%;
+	
+	font-family: VHS;
+	font-size: 6em;
+	text-align: center;
+	color: #F0F000;
+
+	z-index: 1;
+}
+
+#title2{
+	margin-left: 5px;
+	margin-top: 2px;
+
+	padding: 2px;
+	position: absolute;
+	width: 99%;
+	
+	font-family: VHS;
+	font-size: 6em;
+	text-align: center;
+	color: #F00000;
+
+	z-index: 0;
+}
